@@ -1,0 +1,12 @@
+{:renderer "reloaded"
+ :files [[".gitignore" ".gitignore"]
+         ["README.md" "README.md"]
+         ["project.clj" "project.clj"]
+         ["src/{{path}}.clj" "main.clj"]
+         ["dev/user.clj" "user.clj"]]
+ :data {:full-name [:identity]
+        :artifactId [:project-name]
+        :name [:project-name]
+        :year [:year]
+        :main-ns [:sanitize-ns]
+        :path [:name-to-path]}}
